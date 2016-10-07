@@ -1,0 +1,17 @@
+<h4>Welcome!</h4>
+<h5>Fill out the following form to create a profile</h5>
+
+<% if @errors %>
+<ul class='error'>
+<% @errors.each do |error| %>
+  <li><%= error %></li>
+  <% end %>
+  </ul>
+<% end %>
+
+<form action="/user/new" method="post">
+    <input type="text" name="user[name]" placeholder="Name"> <br>
+    <input type="text" name="user[email]" placeholder="Email"> <br>
+    <input type="text" name="user[password]" placeholder="Password">
+    <input type="submit" name="create user" placeholder="Create User">
+</form>
