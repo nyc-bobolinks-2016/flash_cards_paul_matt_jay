@@ -22,7 +22,10 @@
     <h1>FlashCards</h1>
     <nav>
       <a href="#">register</a> |
-      <a href="#">login</a> |
+      <a href="#">login</a>
+      <% if is_authenticated? %>|
+        <a href="/logout">logout</a> |
+      <% end %>|
       <a href="#">home</a>
     </nav>
   </header>
