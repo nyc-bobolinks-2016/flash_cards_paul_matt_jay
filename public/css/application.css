@@ -25,20 +25,23 @@ header nav {
 }
 
 .ul_decks{
-      border-left: 5px solid red;
-      background-color: #f1f1f1;
-      list-style-type: none;
-      padding: 10px 20px;
-      width: 45%;
-
-  }
-
-  ul {
+    border-left: 5px solid red;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    padding: 10px 20px;
+    width: 45%;
     display: inline-block;
-    background-color: purple;
     position: relative;
     top: -15px;
   }
+
+#decks {
+  background-color: white;
+  margin: 20px 200px 0px 0px;
+  list-style-type: none;
+  font-size: 25px;
+
+}
 
   /* Bordered form */
 form {
@@ -115,4 +118,80 @@ span.psw {
   width: 100%;
   height: 1px;
   background-color: orange;
+}
+
+/*#test_1 {
+margin: 10px 10px 10px 10px;
+
+}
+
+#test_2 {
+margin: 10px 10px 10px 10px;
+
+}
+
+#test_3 {
+margin: 10px 10px 10px 10px;
+
+}
+
+#test_4 {
+
+margin: 10px 10px 10px 10px;
+}
+
+#test_5 {
+margin: 10px 10px 10px 50px;
+
+}
+
+#test_6 {
+margin: 10px 50px 10px 50px;
+
+
+}
+
+#test_7 {
+
+margin: 10px 50px 10px 50px;
+
+}
+
+#test_8 {
+margin: 10px 50px 10px 50px;
+
+
+}
+
+#test_9 {
+margin: 10px 10px 10px 500px;
+
+
+}
+
+#test_10 {
+margin: 10px 10px 10px 500px;
+
+}
+
+#test_11 {
+margin: 10px 10px 10px 500px;
+
+
+}
+
+#test_12 {
+margin: 10px 10px 10px 500px;
+
+
+}*/
+
+
+#browse {
+  text-align: center;
+}
+
+
+#card {
+  border: solid black;
 }

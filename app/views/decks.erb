@@ -1,0 +1,10 @@
+<h2 id="browse">Browse By Subject</h2>
+
+<ul id="decks">
+  <% counter = 1 %>
+<% @decks.each do |deck| %>
+<li id="test_<%= counter %>">
+  <a href="/decks/<%= deck.id %>"><%= deck.name %></li></a>
+  <% counter += 1 %>
+<% end %>
+</ul>

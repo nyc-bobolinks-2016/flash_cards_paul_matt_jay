@@ -1,0 +1,14 @@
+
+<h3><%= @deck.name %></h3>
+
+<h5><%= @card.question %></h5>
+<form method='post' action='/answer'>
+  <input type="hidden" name="card_id" value="<%= @card.id %>">
+  <input type="hidden" name="round_id" value="<%= @round.id %>">
+  <input type="hidden" name="index" value="<%= @index %>">
+  <input type="text" name="answer">
+  <input type='submit'>
+</form>
+
+
+</div>
