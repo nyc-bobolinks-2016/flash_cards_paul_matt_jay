@@ -5,13 +5,18 @@
     <li><%= deck.name %> </li>
   <% end %>
 </ul>
-<form action="action_page.php">
+<form action="/login" method="post">
   <div class="container">
     <label><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <% if @errors %>
+      <% @errors.each do |error| %>
+        <li class="error"><%= error %> </li>
+      <% end %>
+    <% end %>
+    <input type="text" placeholder="email" name="email" required>
 
     <label><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="password" placeholder="Enter Password" name="password" required>
 
     <button type="submit">Login</button>
   </div>
