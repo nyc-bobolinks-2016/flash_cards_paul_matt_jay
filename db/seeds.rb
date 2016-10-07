@@ -10,3 +10,18 @@ Deck.create(name: 'Important Vocabulary')
 Deck.create(name: 'German Dates')
 Deck.create(name: 'Other Facts')
 Deck.create(name: 'Animal Noises')
+
+Card.create(question:'hah42342ahahahah', answer: 'heheheheheh' , deck_id: 1)
+Card.create(question:'hahahahah', answer: 'heheheheheh' , deck_id: 1)
+Card.create(question:'hahahahafwrgetgehah', answer: 'heheheheheh' , deck_id: 1)
+Card.create(question:'hahaerwhahahah', answer: 'heheheheheh' , deck_id: 1)
+Card.create(question:'hahahahwwwwwwwhah', answer: 'heheheheheh' , deck_id: 1)
+Card.create(question:'hahahwahahah', answer: 'heheheheheh' , deck_id: 1)
+
+Card.create(question:'hihihertgrgihihih', answer: 'hohohohohoho' , deck_id: 2)
+Card.create(question:'hihihihihih', answer: 'hohohohohoho' , deck_id: 2)
+Card.create(question:'hihifegerhihihih', answer: 'hohohohohoho' , deck_id: 2)
+Card.create(question:'hihihihihih', answer: 'hohohohohoho' , deck_id: 2)
+Card.create(question:'hihihergihihih', answer: 'hohohohohoho' , deck_id: 2)
+Card.create(question:'hihihihihih', answer: 'hohohohohoho' , deck_id: 2)
+
