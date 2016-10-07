@@ -16,7 +16,6 @@ end
 
 
 get '/users/:id' do
-  byebug
   @user = User.find(params[:id])
   erb :'/users/profile'
 end
