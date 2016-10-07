@@ -21,12 +21,14 @@
   <header>
     <h1>FlashCards</h1>
     <nav>
-      <a href="#">register</a> |
-      <a href="#">login</a>
+      <a href="/users/new">register</a> |
+      <a href="#">login</a> |
       <% if is_authenticated? %>|
-        <a href="/logout">logout</a> |
+          <a href="/logout">logout</a> |
+          <a href="/users/<%= current_user.id %>">home</a> 
+      <% else %>
+        <a href= "/">home</a>
       <% end %>|
-      <a href="#">home</a>
     </nav>
   </header>
   <%= yield %>

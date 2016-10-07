@@ -1,5 +1,6 @@
 def is_authenticated?
   return true if session[:user_id]
+  false
 end
 
 def current_user
