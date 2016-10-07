@@ -1,0 +1,18 @@
+<h2>Flash Card Decks</h2>
+<div id="fix_height"></div>
+<ul class='ul_decks'>
+  <% @decks.each do |deck| %>
+    <li><%= deck.name %> </li>
+  <% end %>
+</ul>
+<form action="action_page.php">
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+  </div>
+</form>
